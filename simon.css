@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 2.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btnc {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.r {
+  background-color: red;
+}
+
+.y {
+  background-color: yellow;
+}
+
+.p {
+  background-color: purple;
+}
+
+.g {
+  background-color: green;
+}
+
+.flash {
+  background-color: white;
+  transition: background-color 0.2s ease;
+}
